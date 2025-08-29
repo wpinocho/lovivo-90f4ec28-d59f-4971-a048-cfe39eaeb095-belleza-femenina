@@ -31,7 +31,7 @@ const Footer = () => {
               <li><a href="#" className="text-gray-300 hover:text-pink-400 transition-colors">Productos</a></li>
               <li><a href="#" className="text-gray-300 hover:text-pink-400 transition-colors">Ofertas</a></li>
               <li><a href="#" className="text-gray-300 hover:text-pink-400 transition-colors">Blog</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-pink-400 transition-colors">Contacto</a></li>
+              <li><Link to="/contact" className="text-gray-300 hover:text-pink-400 transition-colors">Contacto</Link></li>
             </ul>
           </div>
 
@@ -57,7 +57,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center">
                 <Phone className="w-5 h-5 text-pink-400 mr-3" />
-                <span className="text-gray-300">+1 (555) 123-4567</span>
+                <span className="text-gray-300">+52 (55) 1234-5678</span>
               </div>
               <div className="flex items-center">
                 <Mail className="w-5 h-5 text-pink-400 mr-3" />
