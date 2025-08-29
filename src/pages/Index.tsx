@@ -1,13 +1,46 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import React from 'react';
+import { CartProvider } from '@/contexts/CartContext';
+import Header from '@/components/Header';
+import HeroBanner from '@/components/HeroBanner';
+import Categories from '@/components/Categories';
+import ProductGrid from '@/components/ProductGrid';
+import Footer from '@/components/Footer';
+import { sampleProducts } from '@/data/products';
 
 const Index = () => {
+  console.log('Index page rendered');
+  
+  // Filtrar productos destacados
+  const featuredProducts = sampleProducts.filter(product => product.isBestSeller || product.isNew);
+  const newProducts = sampleProducts.filter(product => product.isNew);
+
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
+    <CartProvider>
+      <div className="min-h-screen bg-white">
+        <Header />
+        <HeroBanner />
+        <Categories />
+        
+        <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <ProductGrid 
+            products={featuredProducts} 
+            title="Productos Destacados" 
+          />
+          
+          <ProductGrid 
+            products={newProducts} 
+            title="Nuevos Productos" 
+          />
+          
+          <ProductGrid 
+            products={sampleProducts} 
+            title="Todos los Productos" 
+          />
+        </main>
+        
+        <Footer />
       </div>
-    </div>
+    </CartProvider>
   );
 };
 
