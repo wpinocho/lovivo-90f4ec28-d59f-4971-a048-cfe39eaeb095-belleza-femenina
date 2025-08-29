@@ -22,7 +22,7 @@ const Categories = () => {
       color: 'bg-blue-100 text-blue-600'
     },
     {
-      name: 'Fragancias',
+      name: 'Colonias',
       icon: Heart,
       description: 'Perfumes y colonias exclusivas',
       color: 'bg-rose-100 text-rose-600'

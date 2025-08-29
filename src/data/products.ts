@@ -79,7 +79,7 @@ export const sampleProducts: Product[] = [
     brand: 'Essence',
     price: 68.99,
     image: 'https://images.unsplash.com/photo-1541643600914-78b084683601?w=400&h=400&fit=crop',
-    category: 'Fragancias',
+    category: 'Colonias',
     description: 'Fragancia floral sofisticada con notas de jazmín y rosa.',
     rating: 4,
     reviews: 67,

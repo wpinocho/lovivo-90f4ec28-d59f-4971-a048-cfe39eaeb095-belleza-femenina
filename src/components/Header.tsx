@@ -72,7 +72,7 @@ const Header = () => {
             <a href="#" className="text-gray-700 hover:text-pink-600 font-medium">Maquillaje</a>
             <a href="#" className="text-gray-700 hover:text-pink-600 font-medium">Cuidado de la Piel</a>
             <a href="#" className="text-gray-700 hover:text-pink-600 font-medium">Cabello</a>
-            <a href="#" className="text-gray-700 hover:text-pink-600 font-medium">Fragancias</a>
+            <a href="#" className="text-gray-700 hover:text-pink-600 font-medium">Colonias</a>
             <a href="#" className="text-gray-700 hover:text-pink-600 font-medium">Ofertas</a>
             <Link to="/about" className="text-gray-700 hover:text-pink-600 font-medium">Sobre Nosotros</Link>
             <Link to="/contact" className="text-gray-700 hover:text-pink-600 font-medium">Super Contacto!</Link>
