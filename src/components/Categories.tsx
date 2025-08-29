@@ -10,7 +10,7 @@ const Categories = () => {
       color: 'bg-pink-100 text-pink-600'
     },
     {
-      name: 'Cuidado de la Piel',
+      name: 'Piel',
       icon: Sparkles,
       description: 'Cremas, serums y tratamientos',
       color: 'bg-purple-100 text-purple-600'

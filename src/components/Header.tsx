@@ -70,7 +70,7 @@ const Header = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex space-x-8 py-3">
             <a href="#" className="text-gray-700 hover:text-pink-600 font-medium">Maquillaje</a>
-            <a href="#" className="text-gray-700 hover:text-pink-600 font-medium">Cuidado de la Piel</a>
+            <a href="#" className="text-gray-700 hover:text-pink-600 font-medium">Piel</a>
             <a href="#" className="text-gray-700 hover:text-pink-600 font-medium">Cabello</a>
             <a href="#" className="text-gray-700 hover:text-pink-600 font-medium">Colonias</a>
             <a href="#" className="text-gray-700 hover:text-pink-600 font-medium">Ofertas</a>

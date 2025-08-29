@@ -55,7 +55,7 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Categorías</h4>
             <ul className="space-y-2">
               <li><a href="#" className="text-gray-300 hover:text-pink-400 transition-colors">Maquillaje</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-pink-400 transition-colors">Cuidado de la Piel</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-pink-400 transition-colors">Piel</a></li>
               <li><a href="#" className="text-gray-300 hover:text-pink-400 transition-colors">Cabello</a></li>
               <li><a href="#" className="text-gray-300 hover:text-pink-400 transition-colors">Colonias</a></li>
               <li><a href="#" className="text-gray-300 hover:text-pink-400 transition-colors">Accesorios</a></li>
