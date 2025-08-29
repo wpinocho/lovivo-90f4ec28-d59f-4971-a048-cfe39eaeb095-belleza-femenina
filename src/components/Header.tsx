@@ -75,7 +75,7 @@ const Header = () => {
             <a href="#" className="text-gray-700 hover:text-pink-600 font-medium">Fragancias</a>
             <a href="#" className="text-gray-700 hover:text-pink-600 font-medium">Ofertas</a>
             <Link to="/about" className="text-gray-700 hover:text-pink-600 font-medium">Sobre Nosotros</Link>
-            <Link to="/contact" className="text-gray-700 hover:text-pink-600 font-medium">Super Contacto</Link>
+            <Link to="/contact" className="text-gray-700 hover:text-pink-600 font-medium">Super Contacto!</Link>
           </div>
         </div>
       </nav>
