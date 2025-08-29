@@ -1,6 +1,7 @@
 import React from 'react';
 import { ShoppingBag, Search, Heart, User } from 'lucide-react';
 import { useCart } from '@/contexts/CartContext';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const { getTotalItems } = useCart();
@@ -14,7 +15,9 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-2xl font-bold text-pink-600">BeautyStore</h1>
+            <Link to="/" className="text-2xl font-bold text-pink-600">
+              BeautyStore
+            </Link>
           </div>
 
           {/* Search Bar */}
@@ -58,6 +61,7 @@ const Header = () => {
             <a href="#" className="text-gray-700 hover:text-pink-600 font-medium">Cabello</a>
             <a href="#" className="text-gray-700 hover:text-pink-600 font-medium">Fragancias</a>
             <a href="#" className="text-gray-700 hover:text-pink-600 font-medium">Ofertas</a>
+            <Link to="/about" className="text-gray-700 hover:text-pink-600 font-medium">Sobre Nosotros</Link>
           </div>
         </div>
       </nav>

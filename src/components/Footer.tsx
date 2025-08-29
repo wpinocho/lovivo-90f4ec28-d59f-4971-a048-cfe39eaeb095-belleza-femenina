@@ -1,5 +1,6 @@
 import React from 'react';
 import { Facebook, Instagram, Twitter, Mail, Phone, MapPin } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   console.log('Footer rendered');
@@ -26,7 +27,7 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Enlaces Rápidos</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-300 hover:text-pink-400 transition-colors">Sobre Nosotros</a></li>
+              <li><Link to="/about" className="text-gray-300 hover:text-pink-400 transition-colors">Sobre Nosotros</Link></li>
               <li><a href="#" className="text-gray-300 hover:text-pink-400 transition-colors">Productos</a></li>
               <li><a href="#" className="text-gray-300 hover:text-pink-400 transition-colors">Ofertas</a></li>
               <li><a href="#" className="text-gray-300 hover:text-pink-400 transition-colors">Blog</a></li>
