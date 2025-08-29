@@ -1,5 +1,5 @@
 import React from 'react';
-import { ShoppingBag, Search, Heart, User } from 'lucide-react';
+import { ShoppingBag, Search, Heart, User, Sparkles } from 'lucide-react';
 import { useCart } from '@/contexts/CartContext';
 import { Link } from 'react-router-dom';
 
@@ -15,8 +15,21 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link to="/" className="text-2xl font-bold text-pink-600">
-              BeautyStore
+            <Link to="/" className="flex items-center space-x-2 group">
+              <div className="relative">
+                <div className="w-10 h-10 bg-gradient-to-br from-pink-500 via-purple-500 to-rose-500 rounded-full flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:scale-105">
+                  <Sparkles className="w-6 h-6 text-white animate-pulse" />
+                </div>
+                <div className="absolute -top-1 -right-1 w-4 h-4 bg-gradient-to-br from-yellow-400 to-orange-400 rounded-full opacity-80 group-hover:opacity-100 transition-opacity duration-300"></div>
+              </div>
+              <div className="flex flex-col">
+                <span className="text-2xl font-bold bg-gradient-to-r from-pink-600 via-purple-600 to-rose-600 bg-clip-text text-transparent group-hover:from-pink-500 group-hover:via-purple-500 group-hover:to-rose-500 transition-all duration-300">
+                  BeautyGlow
+                </span>
+                <span className="text-xs text-gray-500 -mt-1 group-hover:text-pink-500 transition-colors duration-300">
+                  ✨ Tu belleza natural
+                </span>
+              </div>
             </Link>
           </div>
 

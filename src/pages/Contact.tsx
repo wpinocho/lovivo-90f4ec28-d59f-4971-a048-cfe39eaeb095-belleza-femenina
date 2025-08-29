@@ -60,7 +60,7 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Correos Electrónicos',
-      details: ['info@beautystore.com', 'ventas@beautystore.com', 'soporte@beautystore.com'],
+      details: ['info@beautyglow.com', 'ventas@beautyglow.com', 'soporte@beautyglow.com'],
       color: 'bg-rose-100 text-rose-600'
     },
     {
@@ -75,22 +75,22 @@ const Contact = () => {
     {
       icon: Instagram,
       name: 'Instagram',
-      handle: '@beautystore_mx',
-      url: 'https://instagram.com/beautystore_mx',
+      handle: '@beautyglow_mx',
+      url: 'https://instagram.com/beautyglow_mx',
       color: 'bg-gradient-to-r from-purple-500 to-pink-500'
     },
     {
       icon: Facebook,
       name: 'Facebook',
-      handle: 'BeautyStore México',
-      url: 'https://facebook.com/beautystoremx',
+      handle: 'BeautyGlow México',
+      url: 'https://facebook.com/beautyglowmx',
       color: 'bg-blue-600'
     },
     {
       icon: Twitter,
       name: 'Twitter',
-      handle: '@BeautyStoreMX',
-      url: 'https://twitter.com/beautystoremx',
+      handle: '@BeautyGlowMX',
+      url: 'https://twitter.com/beautyglowmx',
       color: 'bg-sky-500'
     },
     {
@@ -342,14 +342,14 @@ const Contact = () => {
                     allowFullScreen
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                    title="Ubicación de BeautyStore"
+                    title="Ubicación de BeautyGlow"
                   />
                 </div>
                 <div className="p-6">
                   <div className="flex items-center justify-between">
                     <div>
                       <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                        BeautyStore - Tienda Principal
+                        BeautyGlow - Tienda Principal
                       </h3>
                       <p className="text-gray-600">
                         Av. Belleza 123, Piso 5, Centro Comercial Plaza Rosa

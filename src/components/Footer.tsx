@@ -1,5 +1,5 @@
 import React from 'react';
-import { Facebook, Instagram, Twitter, Mail, Phone, MapPin } from 'lucide-react';
+import { Facebook, Instagram, Twitter, Mail, Phone, MapPin, Sparkles } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -11,7 +11,22 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-2xl font-bold text-pink-400 mb-4">BeautyStore</h3>
+            <div className="flex items-center space-x-2 mb-4">
+              <div className="relative">
+                <div className="w-8 h-8 bg-gradient-to-br from-pink-500 via-purple-500 to-rose-500 rounded-full flex items-center justify-center shadow-lg">
+                  <Sparkles className="w-5 h-5 text-white" />
+                </div>
+                <div className="absolute -top-1 -right-1 w-3 h-3 bg-gradient-to-br from-yellow-400 to-orange-400 rounded-full opacity-80"></div>
+              </div>
+              <div className="flex flex-col">
+                <span className="text-xl font-bold bg-gradient-to-r from-pink-400 via-purple-400 to-rose-400 bg-clip-text text-transparent">
+                  BeautyGlow
+                </span>
+                <span className="text-xs text-gray-400 -mt-1">
+                  ✨ Tu belleza natural
+                </span>
+              </div>
+            </div>
             <p className="text-gray-300 mb-4">
               Tu tienda de confianza para productos de belleza de alta calidad. 
               Realza tu belleza natural con nuestros productos seleccionados.
@@ -61,7 +76,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center">
                 <Mail className="w-5 h-5 text-pink-400 mr-3" />
-                <span className="text-gray-300">info@beautystore.com</span>
+                <span className="text-gray-300">info@beautyglow.com</span>
               </div>
             </div>
           </div>
@@ -69,7 +84,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400">
-            © 2024 BeautyStore. Todos los derechos reservados.
+            © 2024 BeautyGlow. Todos los derechos reservados.
           </p>
         </div>
       </div>

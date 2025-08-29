@@ -35,7 +35,7 @@ const About = () => {
       name: 'María González',
       role: 'Fundadora & CEO',
       image: 'https://images.unsplash.com/photo-1494790108755-2616b612b786?w=300&h=300&fit=crop&crop=face',
-      description: 'Con más de 15 años en la industria de la belleza, María fundó BeautyStore con la visión de democratizar el acceso a productos de belleza de alta calidad.'
+      description: 'Con más de 15 años en la industria de la belleza, María fundó BeautyGlow con la visión de democratizar el acceso a productos de belleza de alta calidad.'
     },
     {
       name: 'Ana Rodríguez',
@@ -94,7 +94,7 @@ const About = () => {
                 Sobre Nosotros
               </h1>
               <p className="text-xl md:text-2xl max-w-3xl mx-auto">
-                Descubre la historia detrás de BeautyStore y nuestra pasión por realzar tu belleza natural
+                Descubre la historia detrás de BeautyGlow y nuestra pasión por realzar tu belleza natural
               </p>
             </div>
           </section>
@@ -108,10 +108,10 @@ const About = () => {
                     Nuestra Historia
                   </h2>
                   <p className="text-lg text-gray-600 mb-6">
-                    BeautyStore nació en 2019 con una misión simple pero poderosa: hacer que los productos de belleza de alta calidad sean accesibles para todas las mujeres. Comenzamos como una pequeña tienda online y hemos crecido hasta convertirnos en una de las tiendas de belleza más confiables del país.
+                    BeautyGlow nació en 2019 con una misión simple pero poderosa: hacer que los productos de belleza de alta calidad sean accesibles para todas las mujeres. Comenzamos como una pequeña tienda online y hemos crecido hasta convertirnos en una de las tiendas de belleza más confiables del país.
                   </p>
                   <p className="text-lg text-gray-600 mb-6">
-                    Nuestra fundadora, María González, después de años trabajando en la industria cosmética, se dio cuenta de que muchas mujeres no tenían acceso a productos de calidad a precios justos. Así nació BeautyStore, con el compromiso de ofrecer solo los mejores productos, cuidadosamente seleccionados por nuestro equipo de expertos.
+                    Nuestra fundadora, María González, después de años trabajando en la industria cosmética, se dio cuenta de que muchas mujeres no tenían acceso a productos de calidad a precios justos. Así nació BeautyGlow, con el compromiso de ofrecer solo los mejores productos, cuidadosamente seleccionados por nuestro equipo de expertos.
                   </p>
                   <p className="text-lg text-gray-600">
                     Hoy, más de 50,000 mujeres confían en nosotros para sus necesidades de belleza, y seguimos creciendo con la misma pasión y dedicación del primer día.
@@ -225,7 +225,7 @@ const About = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="text-center mb-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                  ¿Por Qué Elegir BeautyStore?
+                  ¿Por Qué Elegir BeautyGlow?
                 </h2>
                 <p className="text-lg text-gray-600 max-w-3xl mx-auto">
                   Nos comprometemos a ofrecerte la mejor experiencia de compra en belleza
@@ -260,7 +260,7 @@ const About = () => {
                 ¿Lista para Descubrir tu Belleza?
               </h2>
               <p className="text-xl mb-8 max-w-2xl mx-auto">
-                Únete a miles de mujeres que ya confían en BeautyStore para realzar su belleza natural
+                Únete a miles de mujeres que ya confían en BeautyGlow para realzar su belleza natural
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <button className="bg-white text-purple-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
